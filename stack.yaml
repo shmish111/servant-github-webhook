@@ -1,1 +1,7 @@
-resolver: nightly-2018-04-05
+resolver: lts-13.15
+packages:
+- ./
+- location:
+    git: https://github.com/shmish111/github.git
+    commit: d55fddef18a816f090f733b3c28260a214f29f08
+  extra-dep: true
